@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+
+body {background-color: #e0dddd; 
+     font-family: 'Roboto', sans-serif;
+    margin: auto; padding: 1rem; width: 100%; height: 100%; max-width: 80rem;}
+.contenedor {width: 100%;align-content: center; background: #ffff; display: flex; ,margin:auto;display: block;}
+
+
+/*TITULO*/
+section {width: 100%; margin: auto;}
+main {width: 100%;}
+.titulohome h1 a{color: whitesmoke; text-decoration-color: none; list-style: none; list-style-type: none;text-decoration-line: none;}
+.titulohome h1 a:hover{ background: #1d96d1;}
+.titulohome {background: #afafaf; width:100%; padding-top: 0,5rem; height: 4rem;justify-content: center; align-content: center;text-decoration-color: none; list-style: none; list-style-type: none;}
+.titulohome h1 {text-decoration-color: none; list-style: none; list-style-type: none;color: whitesmoke; width:100%;  margin:auto; padding: 1rem;display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+.titulo {background: #afafaf; width:100%; padding-top: 0,5rem; height: 4rem;justify-content: center; align-content: center;}
+.titulo h1 {color: whitesmoke; width:100%;  margin:auto; padding: 1rem;display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+/*PROFESORES*/
+.profesores {width:100%; align-content: center; margin: auto;}
+.profesores img {width: 100%; padding: 1rem;align-content: center;}
+
+/*MENÚ*/
+.menu {width:100%; background: #1d96d1; height: 3.8rem;}
+.menu ul {width: 100%; display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;list-style: none; padding: 0rem; padding-left: 0.5rem;}
+.menu ul li img {width: 15rem;padding: 0.5rem;}
+
+/*BLOQUE UNO*/
+.bloque1 {width: 100%; display: flex; display: inline-flex;height: 20rem;}
+
+/*PRESENTACION*/
+.presentacion {padding-bottom: 1rem; width: 65%;  font-size: 2rem;background: #e0dddd; display: flex; justify-content: center;align-content: center;}
+.presentacion p {width: 35rem; font-size: 1rem;padding: 1rem; display: flex; justify-content: center;}
+
+
+/*DESCARGAS*/
+.descargas {width: 35%;  height: 20rem; display: flex; flex-direction: column; justify-content: center; padding-left: 1rem;}
+.descargas h3 { width: 100%; height: 3rem; padding: 1rem;display: flex; justify-content: center; align-content: center;align-items: center; margin: 0; padding: 0;}
+
+.descargas ul { width: 100%; margin: 0; padding: 0; display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+    list-style: none; 
+    list-style-type: none;
+    text-decoration-color: none;}
+
+.descargas ul li {text-align: left; display: flex; justify-content: center; align-content: center; align-items: baseline; text-decoration-color: none; list-style: none; list-style-type: none; padding: 1rem;}
+
+
+.pdf {width: 2rem;height: 2rem; padding: 0.5; margin: 0; padding-right: 1rem; }
+.svgnovedades {width: 3rem;height: 3rem; padding: 0.5; margin: 0; padding-right: 1rem; }
+.svgforos{width: 3rem;height: 3rem; padding: 0.5; margin: 0; padding-right: 1rem; }
+
+.descargas ul li a{ height: 2rem; display: flex; justify-content: center; text-align: left; text-decoration: none;list-style-type: none;color: #333333; padding-right: 1rem;}
+
+
+
+
+
+/*BLOQUE DOS*/
+
+.bloque2 {width: 100%; height: 55rem; background:whitesmoke; }
+.bloque2 img {padding-right:17rem; padding-left: 18rem;}
+
+.bloque2 h2 { background: #1d96d1; color: whitesmoke; width:100%;  height: 4rem; margin:auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+
+.bloque2 article {width: 100%;padding: 1rem; margin: auto;}
+.bloque2 article ul {width: 100%; display: flex;justify-content: space-between; align-content: center; flex-direction: row; flex-wrap: nowrap; display: inline-flex; list-style: none; list-style-type: none; padding: 1rem;}
+.bloque2 article ul li { display: flex; justify-content: space-between;}
+.bloque2 article ul li img {width: 70%; padding: 1rem;}
+.bloque2 h5 {width: 10rem; padding: 0,5rem; display: flex; justify-content: center;}
+
+/*BLOQUE TRES*/
+.bloque3 {width:100%; background: #ffffff; padding-bottom: 1rem; display: inline-flex; justify-content: center;}
+.libros {width: 30%; height: 25rem; justify-content: center; display: flex;}
+.libros ul {list-style: none; list-style-type: none;padding: 0.2rem; display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;}
+.libros ul li {list-style: none; list-style-type: none; }
+.libros ul li img {width: 24rem; padding: 0.2rem;}
+.foros {width: 35%; height: 25rem; background: #d8d5d5;font-size: 1.3rem; }
+.foros ul {list-style: none; list-style-type: none;padding: 1rem; display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;}
+.foros ul li {list-style: none; list-style-type: none;  }
+.foros h4 {background: #e0dddd; height: 3rem; display: flex; justify-content: flex-start; align-items: center; padding-left: 2rem;}
+.novedades {width: 35%; height: 25rem;background: #b2afaf;font-size: 1.3rem;}
+.novedades ul {list-style: none; list-style-type: none;padding: 1rem; display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;}
+.novedades ul li {list-style: none; list-style-type: none; }
+.novedades h4 {background: #a09a9a; height: 3rem; display: flex; justify-content: flex-start; align-items: center; padding-left: 2rem;}
+
+/*LINEA DE TIEMPO*/  
+.bloque4 {width: 100%;background: #d8d5d5;}
+.bloque4 img {width: 100%;display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+
+/*PIE DE PÁGINA*/   
+
+footer {width: 100%; height: 20rem; position: bottom;background: #0b9ae2; display: flex; flex: auto; display: inline; align-content: space-around;}
+.lineaazul {width:100%; height: 1rem; margin-bottom: 3rem; margin-top: 1rem; background:#067ab4; }
+
